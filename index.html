@@ -12,11 +12,11 @@
         <div class="container">
             <div class="pantalla">
                 <form action="" name="calculadora">
-                    <input type="text" name="text" class="input" id="input-re">
+                    <input type="text" name="text" class="input" id="input-respuesta">
                 </form>
 
                 <form action="" name="calculadora">
-                    <input type="text" name="text" class="input" id="input-op">
+                    <input type="text" name="text" class="input" id="input-operacion">
                 </form>
 
 
@@ -27,31 +27,33 @@
 
 
         <div class="teclado">
-            <button class="tecla tecla-doble" onclick="borrarC()">C</button>
-            <button class="tecla delete">&</button>
+            <!-- &divide; -->
+            <button class="tecla tecla-doble" onclick="reset()">C</button>
+            <button class="tecla delete" onclick="deleteWord()">&laquo;</button>
             <button class="tecla operador">%</button>
 
-            <button class="tecla numero">7</button>
-            <button class="tecla numero">8</button>
-            <button class="tecla numero">9</button>
+            <button class="tecla number">7</button>
+            <button class="tecla number">8</button>
+            <button class="tecla number">9</button>
             <button class="tecla operador">*</button>
 
-            <button class="tecla numero">4</button>
-            <button class="tecla numero">5</button>
-            <button class="tecla numero">6</button>
+            <button class="tecla number">4</button>
+            <button class="tecla number">5</button>
+            <button class="tecla number">6</button>
             <button class="tecla operador">-</button>
 
-            <button class="tecla numero">1</button>
-            <button class="tecla numero">2</button>
-            <button class="tecla numero">3</button>
+            <button class="tecla number">1</button>
+            <button class="tecla number">2</button>
+            <button class="tecla number">3</button>
             <button class="tecla operador">+</button>
 
-            <button class="tecla tecla-doble numero">0</button>
+            <button class="tecla tecla-doble number">0</button>
             <button class="tecla operador">.</button>
-            <button class="tecla" id="igual">=</button>
+            <button class="tecla" id="igual"  onclick="result()">=</button>
         </div>
     </div>
     
-    <script src="js/index.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="js/second.js"></script>
 </body>
 </html>

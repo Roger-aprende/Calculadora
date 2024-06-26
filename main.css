@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(assets/fonts/Poppins-Bold.ttf) format(TrueType);
+	src: url(assets/fonts/Poppins-Light.ttf) format(TrueType);
+	src: url(assets/fonts/Poppins-Regular.ttf) format(TrueType);
+	src: url(assets/fonts/Poppins-Medium.ttf) format(TrueType);
+	src: url(assets/fonts/Poppins-SemiBold.ttf) format(TrueType);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -42,8 +51,6 @@ a{
     display: grid;
     width: 100%;
     height: 30%;
-
-    /* outline: auto; */
 }
 
 .pantalla{
@@ -116,10 +123,5 @@ a{
 
 
 
-/* p{
-    font-family: 'freeline';
-    font-size: .8rem;
-    color: white;
-} */
 
 
